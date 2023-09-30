@@ -335,6 +335,18 @@ textarea {
   box-shadow: 0 0 8px aqua;
   cursor: pointer;
 }
+
 /* Footer Section */
+
+.footer {
+  padding: 32px 10%;
+  text-align: center;
+  font-size: 16px;
+}
+
+hr {
+  margin: 16px;
+  border-bottom: thin solid #fff;
+}
 
 /* Responsive Section */
