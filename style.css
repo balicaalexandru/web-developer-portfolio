@@ -144,7 +144,46 @@ span {
   background-color: #0b141e;
   box-shadow: 0 0 8px aqua;
 }
+
 /* About Section */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 52px;
+  text-align: center;
+  margin: 64px 0;
+}
+
+.about-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.about-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-resume h3 {
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
+}
 
 /* Skills Section */
 
