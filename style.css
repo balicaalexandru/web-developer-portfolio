@@ -13,8 +13,7 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  /* font-size: 62.5%; */
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -61,11 +60,98 @@ a {
   font-size: 48px;
   display: none;
 }
+
 /* Home Section */
+
+section {
+  padding: 160px;
+  min-height: 100vh;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-bio h3 {
+  font-size: 40px;
+}
+
+span {
+  color: aqua;
+}
+
+.home-bio h1 {
+  font-size: 56px;
+  line-height: 1.4;
+}
+
+.home-bio p {
+  font-size: 24px;
+  padding: 16px 0;
+}
+
+.profile-pic img {
+  width: 30vw;
+  border-radius: 50%;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-32px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.social-media a {
+  width: 60px;
+  height: 60px;
+  font-size: 32px;
+  margin: 16px 16px 16px 0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+}
+
+.social-media a:hover {
+  color: aqua;
+  box-shadow: 0 0 8px aqua;
+}
+
+.btn {
+  display: inline-block;
+  background: aqua;
+  margin: 32px 0;
+  padding: 16px 40px;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 600;
+  transition: 0.5 ease;
+  margin-top: 0;
+}
+
+.btn:hover {
+  color: aqua;
+  background-color: #0b141e;
+  box-shadow: 0 0 8px aqua;
+}
 /* About Section */
+
 /* Skills Section */
+
 /* Projects Section */
+
 /* Contact Section */
+
 /* Footer Section */
+
 /* Responsive Section */
-/* Header Section */
