@@ -2,6 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+/* Create CSS Variables */
+
+:root {
+  --primary-color: #0b141e;
+  --secondary-color: #00ffff;
+  --text-color: #fff;
+}
+
 /* CSS Reset */
 
 * {
@@ -13,16 +21,15 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */
 }
 
 body {
-  background-color: #0b141e;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 a {
-  color: #fff;
+  color: var(--text-color);
 }
 
 /* Header Section */
@@ -43,7 +50,7 @@ a {
 .logo {
   font-size: 35px;
   font-weight: 600;
-  color: aqua;
+  color: var(--secondary-color);
 }
 
 .menu-bar a {
@@ -53,7 +60,7 @@ a {
 }
 
 .menu-bar a:hover {
-  color: aqua;
+  color: var(--secondary-color);
 }
 
 .header i {
@@ -79,7 +86,7 @@ section {
 }
 
 span {
-  color: aqua;
+  color: var(--secondary-color);
 }
 
 .home-bio h1 {
@@ -123,13 +130,13 @@ span {
 }
 
 .social-media a:hover {
-  color: aqua;
-  box-shadow: 0 0 8px aqua;
+  color: var(--secondary-color);
+  box-shadow: 0 0 8px var(--secondary-color);
 }
 
 .btn {
   display: inline-block;
-  background: aqua;
+  background: var(--secondary-color);
   margin: 32px 0;
   padding: 16px 40px;
   border-radius: 20px;
@@ -140,9 +147,9 @@ span {
 }
 
 .btn:hover {
-  color: aqua;
-  background-color: #0b141e;
-  box-shadow: 0 0 8px aqua;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  box-shadow: 0 0 8px var(--secondary-color);
 }
 
 /* About Section */
@@ -220,7 +227,7 @@ span {
 }
 
 .skill-card i:hover {
-  color: aqua;
+  color: var(--secondary-color);
 }
 
 .skill-card h3 {
@@ -285,7 +292,7 @@ span {
 }
 
 .card-overlay i {
-  color: #fff;
+  color: var(--text-color);
   font-size: 28px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.8);
@@ -295,8 +302,8 @@ span {
 
 .card-overlay i:hover {
   transform: scale(1.2);
-  color: aqua;
-  box-shadow: 0 0 32px aqua;
+  color: var(--secondary-color);
+  box-shadow: 0 0 32px var(--secondary-color);
 }
 
 /* Contact Section */
@@ -318,21 +325,21 @@ textarea {
   width: 100%;
   padding: 16px;
   font-size: 24px;
-  color: #fff;
+  color: var(--text-color);
   background: rgba(0, 0, 0, 0.75);
   border-radius: 16px;
   resize: none;
 }
 
 #submit-btn {
-  background-color: aqua;
+  background-color: var(--secondary-color);
   color: #000;
 }
 
 #submit-btn:hover {
-  color: aqua;
-  background-color: #0b141e;
-  box-shadow: 0 0 8px aqua;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  box-shadow: 0 0 8px var(--secondary-color);
   cursor: pointer;
 }
 
@@ -346,7 +353,7 @@ textarea {
 
 hr {
   margin: 16px;
-  border-bottom: thin solid #fff;
+  border-bottom: thin solid var(--text-color);
 }
 
 /* Responsive Section */
