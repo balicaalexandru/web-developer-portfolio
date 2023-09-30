@@ -301,6 +301,40 @@ span {
 
 /* Contact Section */
 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact form input,
+textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 24px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 16px;
+  resize: none;
+}
+
+#submit-btn {
+  background-color: aqua;
+  color: #000;
+}
+
+#submit-btn:hover {
+  color: aqua;
+  background-color: #0b141e;
+  box-shadow: 0 0 8px aqua;
+  cursor: pointer;
+}
 /* Footer Section */
 
 /* Responsive Section */
