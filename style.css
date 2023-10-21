@@ -374,6 +374,14 @@ hr {
   .home img {
     width: 40vw;
   }
+
+  section {
+    min-height: auto;
+    padding: 0 10rem;
+  }
+  .home {
+    padding-top: 10rem;
+  }
 }
 @media (max-width: 767px) {
   #menu-btn {
